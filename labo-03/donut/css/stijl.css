@@ -1,0 +1,55 @@
+/* stijl.css - labo 3, donut (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --color-orange: #ec4b03;
+    --color-purple: #b99ec1;
+    --color-yellow: #f9b700;
+}
+
+/* === your rules === */
+/* body = wit
+main = orangje
+div = paars
+h1 = geel */
+
+body{
+
+}
+
+main {
+    background-color: orangered;
+    border: 0.75rem solid black;        /* Rand van 0.75rem */
+    width: 90vh;                     /* 90vh */
+    height: 90vh;                    /* 90vh */
+    margin: 5vh;               /* 5vh ruimte boven/onder, automatisch gecentreerd links/rechts */
+    box-sizing: border-box;         /* Zorgt dat de border binnen de 90vh valt */
+}
+
+div {
+    background-color: var(--color-purple);
+    border: 0.75rem solid black;
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: var(--color-yellow);
+    border: 0.75rem solid black;
+    width: 90%;
+    height: 90%;
+    margin-top: -7%;
+    margin-left: -7%;
+
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
